@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+  font-family: 'Architects Daughter', cursive;
+}
+
+h1 {
+	text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.instructions {
+  text-align: justify;
+  padding: 1em;
+}
+
+.correctCount {
+  text-align: center;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.boxInput {
+  /*height: 200px;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid grey;
+}
+
+button, input[type="text"] {
+  padding: 5px;
+  margin-left: 265px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: large;
+ }
+
+button:hover {
+  cursor: pointer;
+}
+
+.options {
+  display: none;
+}
+
+.scoreCount {
+  display: none;
+}
